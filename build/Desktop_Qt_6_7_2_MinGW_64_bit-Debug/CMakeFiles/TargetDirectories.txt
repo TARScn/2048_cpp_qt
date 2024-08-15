@@ -1,0 +1,9 @@
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/samp_3_1.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/samp_3_1_autogen_timestamp_deps.dir
+E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/samp_3_1_autogen.dir

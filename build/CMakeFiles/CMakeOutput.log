@@ -1,0 +1,14 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Program Files/w64devkit/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "E:/vscode_ws/QT_WS/samp_3_1/build/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCXX/a.exe"
+

@@ -1,0 +1,19 @@
+# ninja log v6
+6	226	7454411656106204	E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	af9a47fbbe46c23e
+209	1708	7454410125315629	samp_3_1_autogen/timestamp	28f097e79b7c067
+1769	4433	7454410128107454	CMakeFiles/samp_3_1.dir/main.cpp.obj	67d03e8621717553
+209	1708	7454410125315629	E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_autogen/mocs_compilation.cpp	28f097e79b7c067
+209	1708	7454410125315629	samp_3_1_autogen/mocs_compilation.cpp	28f097e79b7c067
+209	1708	7454410125315629	E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_autogen/timestamp	28f097e79b7c067
+1714	4270	7454410127562025	CMakeFiles/samp_3_1.dir/samp_3_1_autogen/mocs_compilation.cpp.obj	74e8f213619a59f9
+1822	4488	7454410128632574	CMakeFiles/samp_3_1.dir/interface.cpp.obj	c99e16dad4e7e2b5
+1894	4503	7454410129354072	CMakeFiles/samp_3_1.dir/cube.cpp.obj	7a72347fe2a37e7e
+4503	5310	7454410155447314	samp_3_1.exe	ff39215f778fa6fc
+227	1866	7454411672346132	build.ninja	e08ce59890b8aad
+4	210	7454411673438513	E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	af9a47fbbe46c23e
+228	706	7454411675676402	samp_3_1_autogen/timestamp	28f097e79b7c067
+228	706	7454411675676402	samp_3_1_autogen/mocs_compilation.cpp	28f097e79b7c067
+228	706	7454411675676402	E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_autogen/timestamp	28f097e79b7c067
+228	706	7454411675676402	E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_autogen/mocs_compilation.cpp	28f097e79b7c067
+707	4559	7454411680468564	CMakeFiles/samp_3_1.dir/interface.cpp.obj	c99e16dad4e7e2b5
+4559	5458	7454411718990873	samp_3_1.exe	ff39215f778fa6fc
