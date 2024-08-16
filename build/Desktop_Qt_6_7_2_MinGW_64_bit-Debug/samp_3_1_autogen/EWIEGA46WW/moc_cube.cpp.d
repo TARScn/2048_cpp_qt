@@ -1,10 +1,13 @@
 E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_autogen/EWIEGA46WW/moc_cube.cpp: E:/vscode_ws/QT_WS/samp_3_1/cube.h \
   E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_autogen/moc_predefs.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/QPoint \
+  E:/Qt/6.7.2/mingw_64/include/QtCore/QPropertyAnimation \
+  E:/Qt/6.7.2/mingw_64/include/QtCore/QString \
   E:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/q23utility.h \
+  E:/Qt/6.7.2/mingw_64/include/QtCore/qabstractanimation.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qalgorithms.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qanystringview.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qarraydata.h \
@@ -33,6 +36,7 @@ E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_a
   E:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
+  E:/Qt/6.7.2/mingw_64/include/QtCore/qeasingcurve.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qflags.h \
@@ -69,6 +73,7 @@ E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_a
   E:/Qt/6.7.2/mingw_64/include/QtCore/qpair.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qpoint.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qprocessordetection.h \
+  E:/Qt/6.7.2/mingw_64/include/QtCore/qpropertyanimation.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qrect.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qrefcount.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qscopedpointer.h \
@@ -115,6 +120,7 @@ E:/vscode_ws/QT_WS/samp_3_1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/samp_3_1_a
   E:/Qt/6.7.2/mingw_64/include/QtCore/qurl.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
+  E:/Qt/6.7.2/mingw_64/include/QtCore/qvariantanimation.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
   E:/Qt/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \

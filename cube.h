@@ -1,59 +1,96 @@
 #ifndef CUBE_H
 #define CUBE_H
+
 #include <QTextBrowser>
+#include <QPropertyAnimation>
+#include <QString>
 #include <QPoint>
-class Cube:public QTextBrowser
+
+class Cube : public QTextBrowser
 {
     Q_OBJECT
+
 private:
-    QPoint coord;
-    int num;
-    enum color{lightblue=2,teal=4,blue=8,lightpink=16,
-                 mediumorchid=32,pink=64,mediumseagreen=128,
-                 purple=256,lightcyan=512,mediumpurple=1024,
-                 red=2048};
+    QPropertyAnimation *animation;
+
+    enum color {
+        lightblue = 2,
+        teal = 4,
+        blue = 8,
+        lightpink = 16,
+        mediumorchid = 32,
+        pink = 64,
+        mediumseagreen = 128,
+        purple = 256,
+        lightcyan = 512,
+        mediumpurple = 1024,
+        red = 2048
+    };
+
     void setColor()
     {
+        QString colorStyle;
         switch (this->num) {
         case color::lightblue:
-            this->setStyleSheet("background-color: lightblue;");
+            colorStyle = "background-color: lightblue;";
             break;
         case color::teal:
-            this->setStyleSheet("background-color: teal;");
+            colorStyle = "background-color: teal;";
             break;
         case color::blue:
-            this->setStyleSheet("background-color: blue;");
+            colorStyle = "background-color: blue;";
             break;
         case color::lightpink:
-            this->setStyleSheet("background-color: lightpink;");
+            colorStyle = "background-color: lightpink;";
             break;
         case color::mediumorchid:
-            this->setStyleSheet("background-color: mediumorchid;");
+            colorStyle = "background-color: mediumorchid;";
             break;
         case color::pink:
-            this->setStyleSheet("background-color: pink;");
+            colorStyle = "background-color: pink;";
             break;
         case color::mediumpurple:
-            this->setStyleSheet("background-color: mediumpurple;");
+            colorStyle = "background-color: mediumpurple;";
             break;
         case color::purple:
-            this->setStyleSheet("background-color: purple;");
+            colorStyle = "background-color: purple;";
             break;
         case color::lightcyan:
-            this->setStyleSheet("background-color: lightcyan;");
+            colorStyle = "background-color: lightcyan;";
             break;
         case color::mediumseagreen:
-            this->setStyleSheet("background-color: mediumseagreen;");
+            colorStyle = "background-color: mediumseagreen;";
             break;
         default:
-            this->setStyleSheet("background-color: red;");
+            colorStyle = "background-color: red;";
             break;
         }
+        this->setStyleSheet(colorStyle);
     }
+
+    void setCubeNum(int num_font)
+    {
+        this->setText(QString::number(num));
+        QTextCursor cursor = this->textCursor();
+        cursor.select(QTextCursor::Document); // Select entire text
+        QTextCharFormat charFormat;
+        charFormat.setFontPointSize(num_font);   // Set font size
+        charFormat.setFontWeight(QFont::Bold); // Set font weight to bold
+        QTextBlockFormat blockFormat;
+        blockFormat.setAlignment(Qt::AlignCenter); // Set text alignment to center
+        cursor.setCharFormat(charFormat); // Apply character format
+        cursor.mergeBlockFormat(blockFormat); // Apply block format
+    }
+
 public:
-    Cube(QTextBrowser * parent = nullptr, int n=75);
+    QPoint coord;
+    int num;
+
+    Cube(QTextBrowser *parent = nullptr, int n = 70);
     ~Cube();
-    void update(int n, QPoint & co);
+    void update(int n, QPoint &co);
+    void moveToPosition(QPoint &co);
+    void animaMove(QPoint &co1, QPoint &co2);
 };
 
 #endif // CUBE_H
