@@ -1,3 +1,0 @@
-E:/vscode_ws/QT_WS/samp_3_1/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e77a1.dir
-E:/vscode_ws/QT_WS/samp_3_1/build/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-E:/vscode_ws/QT_WS/samp_3_1/build/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
