@@ -4,7 +4,7 @@
 Cube::Cube(QTextBrowser *parent, int n) : QTextBrowser(parent), num(2), coord(QPoint(0, 0))
 {
     animation = new QPropertyAnimation(this, "pos");
-    animation->setDuration(500); // Animation duration
+    animation->setDuration(200); // Animation duration
     animation->setEasingCurve(QEasingCurve::Linear); // Animation effect
 
     setColor();

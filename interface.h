@@ -8,7 +8,10 @@
 #include <QPoint>
 #include <QKeyEvent>
 #include <QPropertyAnimation>
+#include <QTimer>
 #include <cstdlib>
+#include <iostream>
+#include <fstream>
 #include <cmath>
 #include "cube.h"
 
@@ -20,20 +23,20 @@ private:
     static const int boxLength=300;
     enum Key_NUM{W=87,A=65,S=83,D=68};
     enum Move_direction{up,down,right,left};
-    bool game_flag = true;//游戏结束标志
+    bool gameover_flag = false;//游戏结束标志
     int theCubes=0;//记录总方块
-    bool keyHandled_A = false;  // 标志按键是否已被处理
+
     QPropertyAnimation *animation;
-    QPushButton *btnRevocate;
+    QPushButton *btnSave;
     QPushButton *btnReset;
     QPushButton *btnClose;
     QTextBrowser *bestScores;
     QTextBrowser *nowScores;
     QWidget *gameBox;
-    Cube **cubes2;
+    QTimer *timer;
     Cube ***cube_positions;  //使用二维数组储存*Cube位置
-    int _best_scores;
-    int _now_scores;
+    int _best_scores=0;
+    int _now_scores=0;
     int move_step;
     void iniUI();            //UI创建与初始化
     void iniSignalSlots();   //初始化信号与槽的链接
@@ -41,9 +44,16 @@ private:
     void creatCube();
     void deleteCube(Cube *& p);
     void moveCube(int direction, Cube * &_cube);
+    void scoresUpdate(int addscores);
+    bool isGameOver();
+    void loadScores();
+    void loadGameBox();
 private slots:
-
-
+    void gameRestart();
+    void onTimeout();
+    void saveGameBox();
+    void noSaveGameBox();
+    void saveGameScores();
 signals:
     void keyPressedSignal(int key);
 protected:

@@ -17,7 +17,7 @@ private:
         lightblue = 2,
         teal = 4,
         blue = 8,
-        lightpink = 16,
+        lightgreen = 16,
         mediumorchid = 32,
         pink = 64,
         mediumseagreen = 128,
@@ -40,8 +40,8 @@ private:
         case color::blue:
             colorStyle = "background-color: blue;";
             break;
-        case color::lightpink:
-            colorStyle = "background-color: lightpink;";
+        case color::lightgreen:
+            colorStyle = "background-color: lightgreen;";
             break;
         case color::mediumorchid:
             colorStyle = "background-color: mediumorchid;";
